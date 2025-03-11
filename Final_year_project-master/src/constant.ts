@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://rishabh-instruments-multifunction-meter.onrender.com/'
+export const BASE_URL = 'http://localhost:5000'
