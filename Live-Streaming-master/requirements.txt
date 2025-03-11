@@ -1,0 +1,14 @@
+flask
+python-dotenv
+pymongo
+pydantic
+bcrypt
+flask_jwt_extended
+pymodbus
+pandas
+flask_cors
+opencv-python
+pyueye
+scikit-image
+Pillow
+pyserial

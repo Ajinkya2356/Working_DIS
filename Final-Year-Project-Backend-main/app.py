@@ -26,7 +26,7 @@ jwt = JWTManager(app)
 CORS(
     app,
     supports_credentials=True,
-    resources={r"/*": {"origins": ["http://localhost:3000", "http://localhost:5173"]}},
+    resources={r"/*": {"origins": ["http://localhost:3000", "http://localhost:5173","http://127.0.0.1:5173"]}},
 )
 app.register_error_handler(ValidationError, handle_validation_error)
 app.register_error_handler(Exception, handle_generic_error)
